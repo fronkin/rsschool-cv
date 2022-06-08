@@ -1,45 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">    
+  <head>
+    <meta charset="UTF-8" />
     <title>Vladiclav Brazovski</title>
-    <link href="style.css" rel="stylesheet"/>
-</head>
-<body>
-    <h2>Vladislav Brazovski</h2>
-    <p>There is a desire to become a JS/Frontend developer and advance my studies in other areas.</p>
-<h1><em>Skils</em></h1>
-<ul>
-    <li>Html</li>
-    <li>CSS</li>
-</ul>
-<h1>Code Examples</h1>
-<div>
-    @keyframes black{
-        0%{
-        color: blue;
-        }
-        50%{
-        color: red;
-        }
-        100%{
-        color: #000000;
-        }
-        
-        }
-        .black-white{
-        animation: black 10s infinite;
-        }
-        
-          </style>
-          <p class="black-white">note</p>
-</div>
-<h1>Education</h1>
-<p> Gomel State College of Electrical Engineering</p>
-<h1>Languages</h1>
-<ul>
-    <li>Russian - native speaker</li>
-    <li>English - A1</li>
-</ul>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="./avatar.jpeg" alt="тут моя фотка" class="ava" />
+        <div class="info">
+          <h1>Vladislav Brazovski</h1>
+          <p>Junior <strong>FRONT-END</strong> developer</p>
+        </div>
+      </header>
+
+      <main>
+        <div class="side">
+          <div class="side_hy">
+            <h3 class="side_hy_t">About Me</h3>
+            <p>
+              There is a desire to become a JS/Frontend developer and advance my
+              studies in other areas.
+            </p>
+          </div>
+          <div class="side_hy">
+            <h3 class="side_hy_t">Education</h3>
+            <p>Gomel State College of Electrical Engineering</p>
+          </div>
+
+          <div class="side_hy">
+            <h3 class="side_hy_t">Code Examples</h3>
+            <code>
+              @keyframes black{<br />
+              0%{ <br />
+              blue;<br />
+              } <br />50%{ <br />color: red; <br />} <br />100%{ <br />color:
+              #000000; <br />} } <br />.black-white{ <br />animation: black 10s
+              infinite; <br />}
+            </code>
+          </div>
+        </div>
+        <aside>
+          <div class="dis">
+            <h2 class="dis_w">CONTACTS</h2>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/fr0nkin/" target="_blank"
+                  >Inctagram</a
+                >
+              </li>
+              <li><a href="Feko992@gmail.com" target="_blank">Email</a></li>
+              <li><a>+375259278092</a></li>
+              <li><a href="https://discord.com/">Fronkin(@fronkin)</a></li>
+            </ul>
+          </div>
+          <div class="dis">
+            <h2 class="dis_w"><em>Skils</em></h2>
+            <ul>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>Git</li>
+            </ul>
+          </div>
+          <div class="dis">
+            <h2 class="dis_w">Languages</h2>
+            <ul>
+              <li>Russian - native speaker</li>
+              <li>English - A1</li>
+            </ul>
+          </div>
+        </aside>
+      </main>
+      <footer>
+        <div class="footer_year">2022</div>
+        <div class="footer_github">
+          <a href="https://github.com/fronkin" target="_blank">
+            <img class="githoob" src="./github-logo.svg" alt="GitHub"
+          /></a>
+          <p>kjhshjks</p>
+        </div>
+        <div class="footer_rsschool">
+          <a href="https://rs.school/js/" target="_blank"
+            ><img class="rsschool" src="./rs_school.svg" alt="rsschool"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
