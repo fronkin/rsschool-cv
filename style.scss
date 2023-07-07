@@ -1,0 +1,350 @@
+@import "./sigma";
+body {
+  margin: 0 auto;
+  background-color: rgb(12, 11, 11);
+  font-family: "Roboto", sans-serif;
+
+  .wrapper_en {
+    width: 1230px;
+    margin: 0 auto;
+    background-color: rgb(58, 56, 56);
+    padding: 20px 50px;
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      .ava_div {
+        .avatar {
+          width: 250px;
+          height: 240px;
+          border: 5px solid #484444;
+          border-radius: 50%;
+        }
+      }
+      .name {
+        h1 {
+          color: rgb(149 149 149);
+        }
+        h2 {
+        }
+      }
+    }
+
+    .divider_horizontal_a {
+      display: flex;
+      justify-content: center;
+      margin-left: 150px;
+
+      .divider_horizontal_f {
+        width: 500px;
+        height: 6px;
+        background-color: $color;
+        border-radius: 20px;
+      }
+    }
+    .about {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+
+      .about_me {
+        max-width: 600px;
+        width: 100%;
+
+        .about_zagol {
+          padding-bottom: 10px;
+          font-size: 30px;
+          text-align: end;
+        }
+        .about_text {
+          font-size: 18px;
+          text-align: end;
+        }
+        
+      }
+      .divider_vertical_a {
+        .divider_vertical_f {
+          width: 6px;
+          height: 200px;
+          background-color: $color;
+        }
+      }
+      .education_zagol {
+        padding-bottom: 20px;
+        font-size: 30px;
+      }
+      .education_text {
+        font-size: 18px;
+        margin-left: 33px;
+      }
+      .dis{
+        li{
+          list-style-type: none;
+          text-align: left;
+        }
+        .dis_w{
+          
+          font-size: 30px;
+        }
+      }
+    }
+
+    .divider_horizontal_b {
+      display: flex;
+      justify-content: center;
+
+      .divider_horizontal_f {
+        width: 500px;
+        height: 6px;
+        background-color: $color;
+        border-radius: 20px;
+      }
+    }
+
+    .content_center {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 10px;
+
+      .code_examples {
+        .code_zagolovok {
+          padding-bottom: 10px;
+          font-size: 30px;
+          text-align: end;
+          padding-top: 10px;
+        }
+        .code_text {
+          display: inline-block;
+          padding: 10px;
+          background-color: rgba(17, 17, 17, 0.178);
+          font-size: 17px;
+        }
+      }
+      .contacts {
+        .contacts_zagol {
+          padding-bottom: 10px;
+          padding-top: 10px;
+          font-size: 30px;
+        }
+        li {
+          list-style-type: none;
+        }
+        .logo_flex {
+          display: flex;
+          align-items: center;
+          text-indent: 10px;
+          margin-bottom: 10px;
+          text-decoration: none;
+          color: #fff;
+
+          .logo {
+            width: 30px;
+          }
+        }
+      }
+
+      .divider_vertical_b {
+        .divider_vertical_f {
+          width: 6px;
+          height: 339px;
+          background-color: $color;
+        }
+      }
+    }
+
+    .divider_horizontal_g {
+      display: flex;
+      justify-content: center;
+      margin-left: 36px;
+
+      .divider_horizontal_f {
+        width: 800px;
+        height: 6px;
+        background-color: $color;
+        border-radius: 20px;
+      }
+    }
+
+    .content_skills {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 30px;
+
+      .skills {
+        .skills_zagol {
+          padding-bottom: 10px;
+          padding-top: 20px;
+          font-size: 30px;
+          margin-left: 70px;
+        }
+
+        .skills_text {
+          li{
+            list-style-type: none;
+          }
+          .html_border {
+            display: inline-block;
+            margin: 0.5em;
+            width: 8em;
+            height: 8em;
+            position: relative;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .text_html {
+              color: blue;
+              z-index: 1;
+              font-size: 30px;
+              font-weight: 600;
+            }
+            .text_css{
+              color: blue;
+              z-index: 1;
+              font-size: 30px;
+              font-weight: 600;
+            }
+            .text_js{
+              color: blue;
+              z-index: 1;
+              font-size: 30px;
+              font-weight: 600;
+            }
+            .text_git{
+              color: blue;
+              z-index: 1;
+              font-size: 30px;
+              font-weight: 600;
+            }
+          }
+          .html_border:after {
+            border-radius: 50%;
+            display: block;
+            content: "";
+            background: #fff;
+            position: absolute;
+            left: 0.5em;
+            top: 0.5em;
+            height: 7em;
+            width: 7em;
+          }
+          .p1 {
+            background-image: linear-gradient(
+                270deg,
+                transparent 50%,
+                steelblue 50%
+              ),
+              linear-gradient(98deg, #ddd 50%, steelblue 50%);
+          }
+          .p2{
+            background-image: linear-gradient(
+              270deg,
+              transparent 50%,
+              steelblue 50%
+            ),
+            linear-gradient(98deg, #ddd 50%, steelblue 50%);
+       
+          }
+          .p3{
+            background-image: linear-gradient(
+              270deg,
+              transparent 50%,
+              steelblue 50%
+            ),
+            linear-gradient(221deg, #ddd 50%, steelblue 50%);
+       
+          }
+          .p4{
+            background-image: linear-gradient(
+              270deg,
+              transparent 50%,
+              steelblue 50%
+            ),
+            linear-gradient(150deg, #ddd 50%, steelblue 50%);
+       
+          }
+        }
+      }
+
+      .swip {
+        .swip_zagol {
+          padding-bottom: 10px;
+          padding-top: 20px;
+          font-size: 30px;
+          margin-left: 40px;
+        }
+
+        .swiper {
+          width: 550px;
+          height: 550px;
+
+          .img_swip {
+            max-width: 550px;
+            width: 100%;
+            height: 550px;
+          }
+          
+        }
+      }
+
+      .divider_vertical {
+        .divider_vertical_f {
+          width: 6px;
+          height: 630px;
+          background-color: $color;
+        }
+      }
+    }
+   
+    .footer_div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      margin-top: 40px;
+
+      .footer_year {
+        text-align: center;
+        font-size: 35px;
+        line-height: 37px;
+        margin-left: 30px;
+        font-weight: bold;
+        color: #000;
+      }
+      .footer_github {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-size: 15px;
+        gap: 5px;
+        
+.a_git{
+  text-decoration: none;
+  display: flex;
+    align-items: center;
+    text-indent: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+}
+        .githoob {
+          width: 25px;
+        }
+      }
+
+      .footer_rsschool {
+        .rsschool {
+          width: 70px;
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}

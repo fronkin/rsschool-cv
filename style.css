@@ -1,0 +1,270 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(12, 11, 11);
+  font-family: "Roboto", sans-serif;
+}
+body .wrapper_en {
+  width: 1230px;
+  margin: 0 auto;
+  background-color: rgb(58, 56, 56);
+  padding: 20px 50px;
+}
+body .wrapper_en .header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+body .wrapper_en .header .ava_div .avatar {
+  width: 250px;
+  height: 240px;
+  border: 5px solid #484444;
+  border-radius: 50%;
+}
+body .wrapper_en .header .name h1 {
+  color: rgb(149, 149, 149);
+}
+body .wrapper_en .divider_horizontal_a {
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+}
+body .wrapper_en .divider_horizontal_a .divider_horizontal_f {
+  width: 500px;
+  height: 6px;
+  background-color: rgba(181, 157, 157, 0.21);
+  border-radius: 20px;
+}
+body .wrapper_en .about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+body .wrapper_en .about .about_me {
+  max-width: 600px;
+  width: 100%;
+}
+body .wrapper_en .about .about_me .about_zagol {
+  padding-bottom: 10px;
+  font-size: 30px;
+  text-align: end;
+}
+body .wrapper_en .about .about_me .about_text {
+  font-size: 18px;
+  text-align: end;
+}
+body .wrapper_en .about .divider_vertical_a .divider_vertical_f {
+  width: 6px;
+  height: 200px;
+  background-color: rgba(181, 157, 157, 0.21);
+}
+body .wrapper_en .about .education_zagol {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+body .wrapper_en .about .education_text {
+  font-size: 18px;
+  margin-left: 33px;
+}
+body .wrapper_en .about .dis li {
+  list-style-type: none;
+  text-align: left;
+}
+body .wrapper_en .about .dis .dis_w {
+  font-size: 30px;
+}
+body .wrapper_en .divider_horizontal_b {
+  display: flex;
+  justify-content: center;
+}
+body .wrapper_en .divider_horizontal_b .divider_horizontal_f {
+  width: 500px;
+  height: 6px;
+  background-color: rgba(181, 157, 157, 0.21);
+  border-radius: 20px;
+}
+body .wrapper_en .content_center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+body .wrapper_en .content_center .code_examples .code_zagolovok {
+  padding-bottom: 10px;
+  font-size: 30px;
+  text-align: end;
+  padding-top: 10px;
+}
+body .wrapper_en .content_center .code_examples .code_text {
+  display: inline-block;
+  padding: 10px;
+  background-color: rgba(17, 17, 17, 0.178);
+  font-size: 17px;
+}
+body .wrapper_en .content_center .contacts .contacts_zagol {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+}
+body .wrapper_en .content_center .contacts li {
+  list-style-type: none;
+}
+body .wrapper_en .content_center .contacts .logo_flex {
+  display: flex;
+  align-items: center;
+  text-indent: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+body .wrapper_en .content_center .contacts .logo_flex .logo {
+  width: 30px;
+}
+body .wrapper_en .content_center .divider_vertical_b .divider_vertical_f {
+  width: 6px;
+  height: 339px;
+  background-color: rgba(181, 157, 157, 0.21);
+}
+body .wrapper_en .divider_horizontal_g {
+  display: flex;
+  justify-content: center;
+  margin-left: 36px;
+}
+body .wrapper_en .divider_horizontal_g .divider_horizontal_f {
+  width: 800px;
+  height: 6px;
+  background-color: rgba(181, 157, 157, 0.21);
+  border-radius: 20px;
+}
+body .wrapper_en .content_skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+body .wrapper_en .content_skills .skills .skills_zagol {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-size: 30px;
+  margin-left: 70px;
+}
+body .wrapper_en .content_skills .skills .skills_text li {
+  list-style-type: none;
+}
+body .wrapper_en .content_skills .skills .skills_text .html_border {
+  display: inline-block;
+  margin: 0.5em;
+  width: 8em;
+  height: 8em;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .wrapper_en .content_skills .skills .skills_text .html_border .text_html {
+  color: blue;
+  z-index: 1;
+  font-size: 30px;
+  font-weight: 600;
+}
+body .wrapper_en .content_skills .skills .skills_text .html_border .text_css {
+  color: blue;
+  z-index: 1;
+  font-size: 30px;
+  font-weight: 600;
+}
+body .wrapper_en .content_skills .skills .skills_text .html_border .text_js {
+  color: blue;
+  z-index: 1;
+  font-size: 30px;
+  font-weight: 600;
+}
+body .wrapper_en .content_skills .skills .skills_text .html_border .text_git {
+  color: blue;
+  z-index: 1;
+  font-size: 30px;
+  font-weight: 600;
+}
+body .wrapper_en .content_skills .skills .skills_text .html_border:after {
+  border-radius: 50%;
+  display: block;
+  content: "";
+  background: #fff;
+  position: absolute;
+  left: 0.5em;
+  top: 0.5em;
+  height: 7em;
+  width: 7em;
+}
+body .wrapper_en .content_skills .skills .skills_text .p1 {
+  background-image: linear-gradient(270deg, transparent 50%, steelblue 50%), linear-gradient(98deg, #ddd 50%, steelblue 50%);
+}
+body .wrapper_en .content_skills .skills .skills_text .p2 {
+  background-image: linear-gradient(270deg, transparent 50%, steelblue 50%), linear-gradient(98deg, #ddd 50%, steelblue 50%);
+}
+body .wrapper_en .content_skills .skills .skills_text .p3 {
+  background-image: linear-gradient(270deg, transparent 50%, steelblue 50%), linear-gradient(221deg, #ddd 50%, steelblue 50%);
+}
+body .wrapper_en .content_skills .skills .skills_text .p4 {
+  background-image: linear-gradient(270deg, transparent 50%, steelblue 50%), linear-gradient(150deg, #ddd 50%, steelblue 50%);
+}
+body .wrapper_en .content_skills .swip .swip_zagol {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-size: 30px;
+  margin-left: 40px;
+}
+body .wrapper_en .content_skills .swip .swiper {
+  width: 550px;
+  height: 550px;
+}
+body .wrapper_en .content_skills .swip .swiper .img_swip {
+  max-width: 550px;
+  width: 100%;
+  height: 550px;
+}
+body .wrapper_en .content_skills .divider_vertical .divider_vertical_f {
+  width: 6px;
+  height: 630px;
+  background-color: rgba(181, 157, 157, 0.21);
+}
+body .wrapper_en .footer_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+body .wrapper_en .footer_div .footer_year {
+  text-align: center;
+  font-size: 35px;
+  line-height: 37px;
+  margin-left: 30px;
+  font-weight: bold;
+  color: #000;
+}
+body .wrapper_en .footer_div .footer_github {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  gap: 5px;
+}
+body .wrapper_en .footer_div .footer_github .a_git {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-indent: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000;
+}
+body .wrapper_en .footer_div .footer_github .githoob {
+  width: 25px;
+}
+body .wrapper_en .footer_div .footer_rsschool .rsschool {
+  width: 70px;
+  margin-right: 30px;
+}/*# sourceMappingURL=style.css.map */
