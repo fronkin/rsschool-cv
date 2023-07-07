@@ -324,8 +324,16 @@ body {
         font-weight: bold;
         font-size: 15px;
         gap: 5px;
-        color: #000;
-
+        
+.a_git{
+  text-decoration: none;
+  display: flex;
+    align-items: center;
+    text-indent: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+}
         .githoob {
           width: 25px;
         }

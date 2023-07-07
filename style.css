@@ -251,6 +251,14 @@ body .wrapper_en .footer_div .footer_github {
   font-weight: bold;
   font-size: 15px;
   gap: 5px;
+}
+body .wrapper_en .footer_div .footer_github .a_git {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-indent: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
   color: #000;
 }
 body .wrapper_en .footer_div .footer_github .githoob {
